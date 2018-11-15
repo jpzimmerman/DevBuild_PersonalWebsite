@@ -5,6 +5,11 @@
     font-size: 20px;
     margin-top: -10px;
     margin-bottom: 10px;
+    margin-left: -10px;
+}
+
+a{
+    text-decoration: none;
 }
 
 body {
@@ -12,20 +17,40 @@ background-color: steelblue;
 
 }
 
+.profile-image{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+
+}
+
+.socialmedia-image
+{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.video-frame {
+    width: 33%;
+    height: 25%;
+}
+
+#portfolio-video{
+}
 #mainMenuBar{
-    background-color: red;
+    background-color: white;
     padding: 8px 0px;
 }
 
 .mainMenuButton{
-    background-color: orangered;
+    background-color: whitesmoke;
     text-decoration: none;
     font-family: 'Trebuchet MS';
     padding: 10px 30px 10px 30px;
     margin: -10px 0px 0px -5px;
     border-right: 5px solid black;
     text-transform: uppercase;
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .mainMenuButton:hover{
